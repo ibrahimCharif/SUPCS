@@ -1,6 +1,6 @@
 # SPUCS — Version 2 (Android classroom demo)
 
-Smart Phone Usage Control System, SWE 401 Group 11. Version 2 is Version 1 plus three things:
+Smart Phone Usage Control System, SWE 401 Group 11.
 
 1. **Log In and Create Account** (new first screen).
 2. **The camera**: enrolling and identifying a child uses the front camera, with a blink check (liveness).
