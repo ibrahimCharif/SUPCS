@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SPUCS</string>
+    <string name="title">SPUCS Version 2</string>
+    <string name="show_parent">Parent</string>
+    <string name="show_child">Child Device</string>
+    <string name="message_hint">Messages appear here.</string>
+
+    <!-- Parent section -->
+    <string name="parent_title">Parent</string>
+    <string name="account_info">Logged in as %1$s (%2$s).\nPaired device: %3$s</string>
+    <string name="log_out_button">Log Out</string>
+    <string name="pin_hint">Parent PIN (needed for every parent action)</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifications">No notifications yet.</string>
+    <string name="add_child_title">Add Child (UC-02)</string>
+    <string name="add_child_note">With consent, the camera opens after Save Child to scan the child\'s face.</string>
+    <string name="child_name_hint">Child name</string>
+    <string name="child_age_hint">Age (3 to 17)</string>
+    <string name="consent_label">Parent gives consent to scan the child\'s face</string>
+    <string name="add_child_button">Save Child</string>
+    <string name="children_title">Children</string>
+    <string name="no_children">No children yet. Add a child above.</string>
+    <string name="child_info">%1$s, age %2$d. Consent: %3$s.\nFace: %4$s\nDaily limit: %5$s\nToday: used %6$s, extra %7$d min, remaining %8$s</string>
+    <string name="face_none">not enrolled</string>
+    <string name="face_enrolled">enrolled (reference %1$s)</string>
+    <string name="limit_not_set">not set (no allowance yet)</string>
+    <string name="limit_value">%1$d minutes</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="limit_hint">Daily limit in minutes (1 to 1440)</string>
+    <string name="set_limit_button">Set Daily Limit</string>
+    <string name="face_title">Face recognition (camera and AI)</string>
+    <string name="face_note">The face is scanned when the child is added. Use Enroll Face to scan the selected child again, for example after a skipped or failed scan. The child looks at the front camera and blinks once; the AI model (MobileFaceNet) turns the face into a template on this phone, and no photo is kept.</string>
+        <string name="enroll_button">Enroll Face (Camera)</string>
+    <string name="delete_face_button">Delete Face Data</string>
+    <string name="requests_title">Extra-time requests (%1$d pending)</string>
+    <string name="grant_hint">Minutes to grant (1 to 240)</string>
+    <string name="approve_button">Approve</string>
+    <string name="deny_button">Deny</string>
+    <string name="lock_title">Lock the child\'s phone</string>
+    <string name="lock_on">Parent lock: ON</string>
+    <string name="lock_off">Parent lock: off</string>
+    <string name="lock_button">Lock Phone</string>
+    <string name="unlock_button">Unlock Phone</string>
+    <string name="day_title">Demo date</string>
+    <string name="date_text">Demo date: %1$s</string>
+    <string name="next_day_button">Next Day — Demo</string>
+
+    <!-- Child Device section -->
+    <string name="device_title">Child Device</string>
+    <string name="device_info">%1$s, paired with %2$s</string>
+    <string name="no_active_child">No child is identified.</string>
+    <string name="active_child">Active child: %1$s</string>
+    <string name="usage_info">Daily limit: %1$s\nUsed today: %2$s\nApproved extra time: %3$d min\nRemaining: %4$s</string>
+    <string name="status_normal">Normal use allowed.</string>
+    <string name="status_identify">Identify a child to start.</string>
+    <string name="status_restricted">RESTRICTED (in-app demo)\n%1$s\nNext daily reset: 00:00 on %2$s.\nThis only restricts this demo app. It does not lock the real phone.</string>
+    <string name="identify_title">Identify the child</string>
+    <string name="identify_note">Scan Face opens the front camera. The child looks at it and blinks once; the AI finds which child it is.</string>
+    <string name="identify_button">Scan Face (Camera)</string>
+    <string name="fallback_title">Parent PIN on the child\'s phone</string>
+    <string name="device_pin_hint">Parent PIN</string>
+    <string name="select_with_pin_button">Select Child</string>
+    <string name="unlock_with_pin_button">Unlock with PIN</string>
+    <string name="usage_title">Simulate usage</string>
+    <string name="simulate_1">1 Minute</string>
+    <string name="simulate_5">5 Minutes</string>
+    <string name="simulate_15">15 Minutes</string>
+    <string name="request_title">Request More Time (UC-13)</string>
+    <string name="request_hint">Minutes to ask for (1 to 240)</string>
+    <string name="request_button">Request More Time</string>
+    <string name="no_requests">No requests today.</string>
+    <string name="emergency_title">Emergency</string>
+    <string name="emergency_button">Emergency Access (demo)</string>
+
+    <!-- Messages -->
+    <string name="msg_wrong_pin">Wrong parent PIN.</string>
+    <string name="msg_choose_child">Choose a child first.</string>
+    <string name="msg_child_saved">%1$s saved without a face scan (no consent). Set a daily limit; until then there is no allowance.</string>
+    <string name="msg_child_saved_scan">%1$s saved. Now scan the face: look at the camera and blink once.</string>
+    <string name="msg_scan_later">No face was scanned. %1$s is still saved; tap Enroll Face (Camera) to scan later.</string>
+    <string name="msg_limit_saved">Daily limit for %1$s is now %2$d minutes.</string>
+    <string name="msg_enrolled">Face enrolled for %1$s (%2$s).</string>
+    <string name="msg_face_deleted">Face data deleted for %1$s.</string>
+    <string name="msg_no_request">There is no request to review.</string>
+    <string name="msg_reviewed">Request %1$s is now %2$s.</string>
+    <string name="msg_identified">%1$s is now the active child.</string>
+    <string name="msg_unknown_face">The face does not match any enrolled child. No child is identified.</string>
+    <string name="msg_no_face">No face was captured.</string>
+    <string name="msg_no_consent">Enrollment failed: consent was withheld for %1$s. The profile is still saved.</string>
+    <string name="msg_unlocked_with_pin">Parent lock removed with the PIN.</string>
+    <string name="msg_usage">Recorded %1$s of usage.</string>
+    <string name="msg_request_sent">Request %1$s sent to the parent.</string>
+    <string name="msg_next_day">The demo date is now %1$s.</string>
+
+    <!-- Login screen -->
+    <string name="login_tab">Log In</string>
+    <string name="register_tab">Create Account</string>
+    <string name="login_message_hint">Log in or create a parent account.</string>
+    <string name="login_title">Log In</string>
+    <string name="login_note">Demo account: parent@spucs.demo, password demo1234, PIN 1234.</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_note">Accounts are kept while the app is open, like the rest of the data.</string>
+    <string name="name_hint">Your name</string>
+    <string name="new_password_hint">Password (at least 6 characters)</string>
+    <string name="new_pin_hint">Parent PIN (4 digits)</string>
+    <string name="register_button">Create Account</string>
+
+    <!-- Camera screen -->
+    <string name="capture_title">Face camera</string>
+    <string name="capture_note">Look straight at the camera in good light. Blink once so the app knows it is a real person.</string>
+    <string name="capture_starting">Starting the camera…</string>
+    <string name="capture_looking">Camera on. Look at the camera.</string>
+    <string name="capture_no_permission">The camera permission was not given, so the face cannot be captured.</string>
+    <string name="capture_one_face">Show one face to the camera.</string>
+    <string name="capture_move_closer">Move closer or add more light.</string>
+    <string name="capture_blink">Face found. Please blink once.</string>
+    <string name="capture_ready">Ready. Tap Capture.</string>
+    <string name="capture_cancel">Cancel</string>
+    <string name="capture_button">Capture</string>
+</resources>

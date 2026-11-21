@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF1565C0</color>
+    <color name="background">#FFF7F9FC</color>
+    <color name="text_main">#FF1B1F24</color>
+    <color name="text_note">#FF5A6270</color>
+    <color name="box">#FFFFFFFF</color>
+    <color name="message_box">#FFE3EEFB</color>
+    <color name="status_ok">#FFDFF3E3</color>
+    <color name="status_warning">#FFFFF1C2</color>
+    <color name="status_locked">#FFFADBD8</color>
+    <color name="status_neutral">#FFECEFF3</color>
+</resources>
