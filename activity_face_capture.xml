@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/BodyText"
+            android:text="@string/capture_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/NoteText"
+            android:text="@string/capture_note" />
+
+        <!-- The live camera picture. -->
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/captureStatusText"
+            style="@style/BoxText"
+            android:layout_marginTop="8dp"
+            android:background="@color/message_box"
+            android:text="@string/capture_starting" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancelCaptureButton"
+                style="@style/RowButton"
+                android:text="@string/capture_cancel" />
+
+            <Button
+                android:id="@+id/captureButton"
+                style="@style/RowButton"
+                android:text="@string/capture_button" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
