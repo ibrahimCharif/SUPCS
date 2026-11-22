@@ -9,7 +9,7 @@ Repository URL: [Insert clickable GitHub repository URL]
 | Name | Student ID | Role |
 |------|------------|------|
 | Omar Mohamed Awadh | 1052433 | Face recognition |
-| [Member 2] | 1091341 | Usage control, project setup |
+| Youssef Noureldin Mohamed Elsayed Elseby | 1091341 | Usage control, project setup |
 | ibrahim Khalil Charif | 1097811 | Account, login and main screen |
 
 ## Problem
